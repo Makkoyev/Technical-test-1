@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+</head>
+
+<body>
+    <div class="bg-img">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="display-users.html">Display</a></li>
+                    <li><a href="create-user.html">Create</a></li>
+                    <li><a href="edit-user.html">Edit</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="hero-content">
+            <h1>Technical Test</h1>
+            <div>
+                <p>Read a detailed description of the project by following this link!</p>
+            </div>
+
+        </div>
+    </div>
+    <main id="app">
+        <div class="index-content column">
+            <div class="row j-even">
+                <div class="card">
+                    <div class="card-header"><i class="fab fa-html5"></i></div>
+                    <p>HTML5's semantics are important for syntax and readability allowing browsers interpret better the content</p>
+                </div>
+                <div class="card">
+                    <div class="card-header"><i class="fab fa-css3-alt"></i></div>
+                    <p>I've used Flexbox to create a good user experience on both mobile and desktop versions</p>
+                </div>
+            </div>
+            <div class="row j-even">
+                <div class="card">
+                    <div class="card-header"><i class="fab fa-js-square"></i></div>
+                    <p>JavaScript is an important part of front end development. In this project i will try to use JavaScript in different ways. Fetch is used with GET, POST and PUT methods</p>
+                </div>
+                <div class="card">
+                    <div class="card-header"><i class="fab fa-fort-awesome-alt"></i></div>
+                    <p>As the name suggests, it's an awesome tool for a web developer, that give you an access to over 1500 icons for free</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="mailto:y.makkoyev@gmail.com">Work with us!</a>
+    </footer>
+</body>
+
+</html>
+<style>
+    @media screen and (max-width: 800px) {
+        .row {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+</style>

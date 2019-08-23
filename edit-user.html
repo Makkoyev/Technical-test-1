@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maria Barcelona - Edit User</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/styles/edit-user.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="display-users.html">Display</a></li>
+                <li><a href="create-user.html">Create</a></li>
+                <li><a href="edit-user.html">Edit</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="app">
+            <div class="row">
+                <select id="user-list">
+                    <option selected>Choose the username:</option>
+                </select>
+                <input class="mt-1" type="button" onclick="editUser()" value="Edit this user" >
+            </div>
+            <div id="edit-user">
+                Select the user that you would like to edit:
+            </div>
+        </main>
+</body>
+</html>
+<script src="assets/javascript/editData.js"></script>

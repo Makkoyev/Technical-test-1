@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maria Barcelona - Create User</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/styles/create-user.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="display-users.html">Display</a></li>
+                <li><a href="create-user.html">Create</a></li>
+                <li><a href="edit-user.html">Edit</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="app" class="column form">
+        <div class="fullName">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+        </div>
+        <div class="layout-fix">
+            <div class="column date">
+                <h5>Birth Date:</h5>
+                <div class="row">
+                    <input type="text" placeholder="Day" required maxlength="2">
+                    <input type="text" placeholder="Month" required maxlength="2">
+                    <input type="text" placeholder="Year" required maxlength="4">
+                </div>
+            </div>
+
+            <div class="column document">
+                <h5>Document Type:</h5>
+                <div class="row">
+                    <select required>
+                        <option>DNI</option>
+                        <option>NIE</option>
+                    </select>
+                    <input type="text" required maxlength="9">
+                </div>
+            </div>
+        </div>
+        <div class="gender">
+            <div class="column">
+                <h5>Gender:</h5>
+                <div class="row">
+                    <label for="male">Male<input type="radio" id="male" name="gender" value="Male"></label>
+                    <label for="female">Female<input type="radio" id="female" name="gender" value="Female"></label>
+                    <label for="undefined">Undefined<input type="radio" id="undefined" name="gender"
+                            value="Undefined"></label>
+                </div>
+            </div>
+        </div>
+        <div class="email">
+            <input type="email" placeholder="Email Address" required maxlength="24">
+            <input type="email" placeholder="Repeat Email Address" required maxlength="24">
+        </div>
+        <div class="password">
+            <input type="password" placeholder="Password" required maxlength="16">
+            <input type="password" placeholder="Repeat Password" required maxlength="16">
+        </div>
+        <div class="reverse">
+            <input id="registerButton" type="button" value="Register" onclick="registerUser()">
+        </div>
+    </main>
+</body>
+
+</html>
+<script src="assets/javascript/registerUsers.js"></script>

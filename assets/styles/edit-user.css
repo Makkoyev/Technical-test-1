@@ -1,0 +1,36 @@
+#app {
+    width: 50%;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#app > div {
+    width: 100%;
+}
+#app > div> select {
+    width: 100%;
+    padding: 12px;
+    margin: 6px;
+    border-radius: 12px;
+    border: 1px solid #999999;
+
+}
+#app > div> input {
+    width: 25%;
+    padding: 12px;
+    margin: 6px;
+    border-radius: 12px;
+    border: 1px solid #999999;
+
+}
+.edit-data {
+    width: 100%;
+}
+.edit-data input {
+    padding: 12px;
+    margin: 12px;
+    margin: 6px;
+    border-radius: 12px;
+    border: 1px solid #999999;
+}

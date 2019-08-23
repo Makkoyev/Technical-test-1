@@ -1,0 +1,57 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John",
+        "surname"  : "Doe",
+        "identification" : "48124812M",
+        "document_type" : "DNI",
+        "gender" : "man",
+        "email" : "undefined@gmail.com",
+        "password" : "QwErTy@YtReWq"
+      },
+      {
+        "id": 2,
+        "name": "Yevgeniy",
+        "surname"  : "Makkoyev",
+        "identification" : "Y6664309G",
+        "document_type" : "NIE",
+        "gender" : "man",
+        "email" : "y.makkoyev@gmail.com",
+        "password" : "QwErTy@YtReWq"
+      },
+          {
+        "id": 3,
+        "name": "Mandy",
+        "surname"  : "Aguirre",
+        "identification" : "X2763162B",
+        "document_type" : "NIE",
+        "gender" : "female",
+        "email" : "mandyaguirre@armyspy.com",
+        "password" : "QwErTy@YtReWq"
+      },
+          {
+        "id": 4,
+        "name": "Kenneth",
+        "surname"  : "Sanger",
+        "identification" : "X8566787T",
+        "document_type" : "DNI",
+        "gender" : "man",
+        "email" : "kennethsanger@teleworm.us",
+        "password" : "QwErTy@YtReWq"
+      },
+          {
+        "id": 5,
+        "name": "Joleen",
+        "surname"  : "Adger",
+        "identification" : "X0477304P",
+        "document_type" : "DNI",
+        "gender" : "man",
+        "email" : "joleenadger@dayrep.com",
+        "password" : "QwErTy@YtReWq"
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }

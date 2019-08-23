@@ -1,0 +1,197 @@
+#app {
+    width: 60%;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#app>div {
+    padding: 12px;
+    display: flex;
+    width: 100%;
+}
+
+.fullName input {
+    width: 50%;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 12px;
+    border: 1px solid #424B54;
+}
+
+.date {
+    margin: 12px;
+    width: 30%;
+}
+
+.date>.row>input {
+    width: 33%;
+    padding: 12px;
+    border-radius: 12px;
+    margin: 4px;
+    border: 1px solid #424B54;
+
+}
+
+.document {
+    width: 75%;
+    margin: 12px;
+}
+
+.document select {
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #424B54;
+    margin: 6px;
+}
+
+.document input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #424B54;
+    margin: 6px;
+
+}
+
+.gender .row {
+    padding: 12px;
+}
+
+.gender>.column>h5 {
+    padding: 12px;
+}
+
+.gender .row label {
+    padding: 12px;
+}
+
+input[type="radio"] {
+    margin: .5rem;
+}
+
+.email input,
+.password input {
+    width: 50%;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 12px;
+    border: 1px solid #424B54;
+}
+
+#registerButton {
+    margin: 12px;
+    padding: 12px 24px;
+    border-radius: 12px;
+    border: 1px solid #424B54;
+    background: #424B54;
+    color: white;
+    text-transform: uppercase;
+}
+
+#registerButton:disabled {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+#registerButton:hover {
+    cursor: pointer;
+}
+
+.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    background-color: #f1f1f1;
+    border: 3px solid #8d8d8d;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 1400px) {
+    #app {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #app {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #app {
+        width: 90%;
+    }
+
+    .fullName {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fullName input {
+        width: 90%;
+        padding: 12px;
+        margin: 12px;
+    }
+
+    .date {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .date h5 {
+        margin-left: 3vh;
+    }
+
+    .date>.row>input {
+        width: 30%;
+    }
+
+    .document {
+        width: 100%;
+    }
+
+    .document h5 {
+        margin-left: 3vh;
+    }
+
+    .document>.row>input {
+        width: 75%;
+    }
+
+    .document>.row>select {
+        width: 25%;
+    }
+
+    .layout-fix {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row {
+        justify-content: center;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .password {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .email > input, .password > input {
+        width: 100%;
+    }
+}
